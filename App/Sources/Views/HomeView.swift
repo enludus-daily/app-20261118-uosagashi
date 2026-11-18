@@ -83,13 +83,8 @@ struct HomeView: View {
                     .buttonStyle(PlankButtonStyle())
                     .accessibilityIdentifier("home.shareDaily")
             } else {
-                Button {
-                    model.startDaily()
-                } label: {
-                    Label(isDailyInProgress ? tr("今日の池の続き", "Continue today's pond") : tr("今日の池へ", "Fish today's pond"), systemImage: "figure.fishing")
-                }
-                .buttonStyle(PlankButtonStyle(prominent: true))
-                .accessibilityIdentifier("main.daily")
+                Text(isDailyInProgress ? tr("釣りの途中。下のボタンで続きから", "In progress — continue below") : tr("下のボタンから、今日の池へ", "Tap below to fish today's pond"))
+                    .font(Theme.label(12)).foregroundStyle(Theme.inkSoft)
             }
         }
     }
@@ -154,14 +149,26 @@ struct HomeView: View {
         }
     }
 
+    /// 下に固定する帯：今日の池（いちばん大事なボタン）と、図鑑・記録・設定
     private var bottomBar: some View {
-        HStack(spacing: 10) {
-            barButton("book.fill", tr("図鑑", "Fishbook"), "main.codex", .codex)
-            barButton("chart.bar.fill", tr("記録", "Records"), "main.records", .records)
-            barButton("gearshape.fill", tr("設定", "Settings"), "main.settings", .settings)
+        VStack(spacing: 8) {
+            if model.todayResult == nil {
+                Button {
+                    model.startDaily()
+                } label: {
+                    Label(isDailyInProgress ? tr("今日の池の続き", "Continue today's pond") : tr("今日の池へ", "Fish today's pond"), systemImage: "figure.fishing")
+                }
+                .buttonStyle(PlankButtonStyle(prominent: true))
+                .accessibilityIdentifier("main.daily")
+            }
+            HStack(spacing: 10) {
+                barButton("book.fill", tr("図鑑", "Fishbook"), "main.codex", .codex)
+                barButton("chart.bar.fill", tr("記録", "Records"), "main.records", .records)
+                barButton("gearshape.fill", tr("設定", "Settings"), "main.settings", .settings)
+            }
         }
         .padding(.horizontal, 16)
-        .padding(.top, 8)
+        .padding(.top, 10)
         .padding(.bottom, 6)
         .frame(maxWidth: 640)
         .frame(maxWidth: .infinity)

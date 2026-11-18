@@ -573,6 +573,17 @@
         }
       }
     },
+    "下のボタンから、今日の池へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap below to fish today's pond"
+          }
+        }
+      }
+    },
     "中": {
       "extractionState": "manual",
       "localizations": {
@@ -1592,6 +1603,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Records"
+          }
+        }
+      }
+    },
+    "釣りの途中。下のボタンで続きから": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In progress — continue below"
           }
         }
       }
