@@ -95,7 +95,8 @@ struct SolverTests {
         #expect(h != nil)
         if let h { #expect(o.pond.hasFish(h.0) == h.isFish) }
         #expect(o.hintsLeft == 0)
-        #expect(o.useHint() == nil)
+        let again = o.useHint()
+        #expect(again == nil)
     }
 
     @Test func remainingCountSolvesTheLastCorner() {
@@ -159,16 +160,20 @@ struct OutingTests {
         for f in o.remainingFishPositions.prefix(3) { _ = o.peek(f) }
         #expect(o.status == .snapped)
         #expect(o.stars == 0)
-        #expect(o.peek(o.pond.pier) == .none)
+        let after = o.peek(o.pond.pier)
+        #expect(after == .none)
     }
 
     @Test func floatsProtectFromPeeking() {
         var o = sample()
         guard let f = o.remainingFishPositions.first else { return }
-        #expect(o.toggleFloat(f))
-        #expect(o.peek(f) == .none)
+        let placed = o.toggleFloat(f)
+        #expect(placed)
+        let peeked = o.peek(f)
+        #expect(peeked == .none)
         #expect(o.lines == 3)
-        #expect(o.toggleFloat(f))
+        let removed = o.toggleFloat(f)
+        #expect(removed)
         #expect(!o.pond.floats.contains(f))
     }
 
