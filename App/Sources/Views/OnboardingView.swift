@@ -9,7 +9,7 @@ struct OnboardingView: View {
     private var pages: [(String, String)] {
         [
             (tr("水の下に、魚がいる", "Fish hide under the water"),
-             tr("マインスイーパーの推理で、魚を釣るパズル。運の 2 択はない。数を読めば、必ず釣れる。", "A logic puzzle like Minesweeper — but you're fishing. No coin flips: read the numbers and every fish can be found.")),
+             tr("数字を読んで、魚を釣るパズル。運の 2 択はない。数を読めば、必ず釣れる。", "A number-logic puzzle — but you're fishing. No coin flips: read the numbers and every fish can be found.")),
             (tr("覗くと、波紋が数を教える", "Peek, and the ripples count"),
              tr("覗いたマスには、まわり 8 マスにいる魚の数が出る。ぬし（大物）は 2 匹ぶん。", "A peeked tile shows how many fish are in the 8 tiles around it. Lunkers count as two.")),
             (tr("いると読んだら、竿を垂らす", "Know it's there? Cast."),

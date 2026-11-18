@@ -1,21 +1,21 @@
 {
   "_doc": "App Store Connect に API で入れる情報（.github/workflows/asc.yml の metadata が読む）。文字数：name・subtitle 30、keywords 100（カンマ区切り）、promotionalText 170、description 4000。カテゴリの ID は EDUCATION・PRODUCTIVITY・UTILITIES・LIFESTYLE・HEALTH_AND_FITNESS など。審査への提出と App プライバシーの申告は本人が行う。",
   "locale": "ja",
-  "name": "",
-  "subtitle": "",
-  "primaryCategory": "",
-  "secondaryCategory": "",
+  "name": "うおさがし：数を読んで魚を釣るパズル",
+  "subtitle": "水の下の魚を推理で釣る",
+  "primaryCategory": "GAMES",
+  "secondaryCategory": "ENTERTAINMENT",
   "supportUrl": "https://github.com/enludus-daily/app-20261118-uosagashi/issues",
   "privacyPolicyUrl": "https://github.com/enludus-daily/app-20261118-uosagashi/blob/main/PRIVACY.md",
-  "keywords": "",
-  "promotionalText": "",
-  "description": "",
-  "whatToTest": "",
+  "keywords": "推理,パズル,釣り,魚,ロジック,数字,脳トレ,マス目,図鑑,魚釣り,ひまつぶし,今日の問題",
+  "promotionalText": "覗くと波紋が魚の数を教える。いると読んだら竿を垂らす。運の2択はなく、推理だけで必ず全部釣れる池が毎日1つ。",
+  "description": "うおさがしは、数字を読んで水の下の魚を釣る推理パズルです。\n\n■ 遊び方\n・マスを覗くと、まわり8マスにいる魚の数が波紋で出ます\n・魚がいると読んだマスに竿を垂らすと釣れます\n・外したり、魚を驚かせたりすると糸が1本切れます（糸は3本）\n・長押しで「ここは魚」の浮きを置けます\n\n■ 運の2択はありません\n池は桟橋から始まり、推理だけで最後まで解けることを確かめてから出しています。\n\n■ 数え方が育つ\n・ぬし（大物）はまわりの数に2匹ぶんで映ります\n・群れは横に3匹並んで泳ぎます\n・氷の湖では、氷のマスの数が見えません\n\n■ 毎日\n・今日の池：だれが開いても同じ池が1日1つ。続けた日数が残ります\n・魚図鑑：20種。釣るたびに大きさが決まり、種ごとの最大の記録が残ります\n・釣果カード：いちばんの1匹を画像で共有できます\n\n■ 無料と Pro\n村の釣り堀（20池）・今日の池・気ままに・図鑑は無料、広告もありません。\nPro（買い切り）で、山の渓流・磯の潮だまり・氷の湖（各20池）と魚15種、過去14日の今日の池、1池3回のヒントが使えます。\n\n記録はこの iPhone の中だけに保存し、外へ送りません。",
+  "whatToTest": "ホーム（桟橋）の「今日の池へ」で 1 池遊んでください。覗く（タップ）・釣る（下の「釣る」に持ち替えてタップ）・浮き（長押し）・ヒント・一時停止と続きから。村の釣り堀の池を抜けると次の池が開きます。図鑑・記録・設定（効果音・振動・通知）、Pro の購入と復元（サンドボックス）も確かめてください。",
   "en-US": {
-    "name": "",
-    "subtitle": "",
-    "keywords": "",
-    "promotionalText": "",
-    "description": ""
+    "name": "Ripple Pond: Logic Fishing",
+    "subtitle": "Read the ripples, catch fish",
+    "keywords": "logic,puzzle,fishing,fish,mines,number,deduction,brain,daily,grid,casual,relaxing",
+    "promotionalText": "Peek and the ripples count the fish around. Know one's there? Cast. No coin flips — every pond is solvable by logic alone, and there's a new one every day.",
+    "description": "Ripple Pond is a logic puzzle where you read numbers to catch the fish hiding under the water.\n\nHOW TO PLAY\n• Peek at a tile to see how many fish are in the 8 tiles around it\n• Cast your line where you know a fish is to catch it\n• A miss or a spooked fish snaps one line — you have 3\n• Hold to set a float as a marker\n\nNO COIN FLIPS\nEvery pond starts from the pier and is checked to be solvable by deduction alone.\n\nRULES THAT GROW\n• Lunkers count as two fish\n• Schools swim three in a row\n• On the Frozen Lake, ice hides the numbers\n\nEVERY DAY\n• Today's Pond: the same pond for everyone, once a day, with a streak\n• Fishbook: 20 species, each catch with its own size and your records\n• Catch card: share your best fish as an image\n\nFREE AND PRO\nThe Village Pond (20 ponds), Today's Pond, Free fishing and the Fishbook are free, with no ads.\nPro (one-time purchase) adds the Mountain Stream, Tide Pools and Frozen Lake (20 ponds each), 15 more fish, the last 14 daily ponds and 3 hints per pond.\n\nYour records stay on this iPhone. Nothing is sent anywhere."
   }
 }

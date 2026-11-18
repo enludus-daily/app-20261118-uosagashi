@@ -551,17 +551,6 @@
         }
       }
     },
-    "マインスイーパーの推理で、魚を釣るパズル。運の 2 択はない。数を読めば、必ず釣れる。": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A logic puzzle like Minesweeper — but you're fishing. No coin flips: read the numbers and every fish can be found."
-          }
-        }
-      }
-    },
     "・覗く：まわり 8 マスの魚の数が出る（ぬしは 2 匹ぶん）\\n・釣る：魚がいると読んだマスに竿を垂らす\\n・外す・魚を驚かせると糸が 1 本切れる（3 本）\\n・長押し：浮き（ここは魚、の印）": {
       "extractionState": "manual",
       "localizations": {
@@ -921,6 +910,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Read the ripples. Catch what's below."
+          }
+        }
+      }
+    },
+    "数字を読んで、魚を釣るパズル。運の 2 択はない。数を読めば、必ず釣れる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A number-logic puzzle — but you're fishing. No coin flips: read the numbers and every fish can be found."
           }
         }
       }
