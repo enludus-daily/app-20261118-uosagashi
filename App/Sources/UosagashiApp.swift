@@ -213,7 +213,13 @@ enum Launch {
             model.tool = .rod
             model.inPond = true
         case "splash":
-            var o = Samples.outing(steps: 14)
+            var o = Samples.outing(steps: 9)
+            // 魚が 1 匹釣れるまで進める（ぬしなら、なおよい）
+            var guardSteps = 0
+            while o.catches.isEmpty && guardSteps < 60 && !o.isOver {
+                Samples.play(&o, steps: 1)
+                guardSteps += 1
+            }
             if let last = o.catches.last {
                 model.splash = Splash(pos: last.pos, speciesID: last.speciesID, big: last.species?.isLunker ?? false)
                 model.banner = Banner(text: trf("%@！", "%@!", last.species?.name ?? ""), sub: String(format: "%.1f cm", last.cm))
