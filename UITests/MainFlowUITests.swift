@@ -13,17 +13,25 @@ enum MainFlow {
     /// 1 操作ずつ。各操作のあとに撮る。
     /// 案内 3 ページ → はじめての池（ヒント・道具の持ち替え）→ 一時停止 → 桟橋 → 図鑑 → 今日の池
     static let steps: [Step] = [
+        // 起動直後は遅いランナーで描画が追いつかないことがある
+        .wait(1.5),
         .tap("main.onboardingNext"),
         .tap("main.onboardingNext"),
-        .tap("main.onboardingNext"),
+        .tap("main.start"),
+        // 案内が消えて池が出るのを待つ
+        .wait(1.5),
         .tap("main.hint"),
         .tap("main.toolRod"),
         .tap("main.toolPeek"),
         .tap("main.pause"),
         .tap("main.leave"),
+        .wait(1.0),
         .tap("main.codex"),
         .tap("main.closeCodex"),
+        // シートが閉じきるのを待つ
+        .wait(1.5),
         .tap("main.daily"),
+        .wait(1.5),
         .tap("main.pause"),
         .tap("main.resume"),
     ]

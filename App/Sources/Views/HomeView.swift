@@ -164,6 +164,8 @@ struct HomeView: View {
         .padding(.top, 8)
         .padding(.bottom, 6)
         .frame(maxWidth: 640)
+        .frame(maxWidth: .infinity)
+        .background(Theme.water(.village).deep.opacity(0.94).ignoresSafeArea(edges: .bottom).allowsHitTesting(false))
     }
 
     private func barButton(_ icon: String, _ title: String, _ id: String, _ sheet: ActiveSheet) -> some View {

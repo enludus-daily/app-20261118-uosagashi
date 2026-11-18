@@ -58,7 +58,7 @@ struct OnboardingView: View {
                 }
             }
             .buttonStyle(PlankButtonStyle(prominent: true))
-            .accessibilityIdentifier("main.onboardingNext")
+            .accessibilityIdentifier(page < pages.count - 1 ? "main.onboardingNext" : "main.start")
             .padding(.horizontal, 24)
             .padding(.bottom, 10)
             .frame(maxWidth: 560)
