@@ -1,42 +1,1729 @@
 {
   "sourceLanguage": "ja",
   "strings": {
-    "はじめる": {
+    "%@ で Pro にする": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Start"
+            "value": "Get Pro for %@"
           }
         }
       }
     },
-    "リセット": {
+    "%@ の大きさの記録 %.1f cm": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Reset"
+            "value": "New %@ record: %.1f cm"
           }
         }
       }
     },
-    "1 たす": {
+    "%d / %d 匹": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Add 1"
+            "value": "%d / %d fish"
           }
         }
       }
     },
-    "回数 %lld": {
+    "%d / %d 種": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Count %lld"
+            "value": "%d of %d species"
+          }
+        }
+      }
+    },
+    "%d 匹・最大 %.1f cm": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d caught · best %.1f cm"
+          }
+        }
+      }
+    },
+    "%d 日つづけて釣っている": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d-day streak"
+          }
+        }
+      }
+    },
+    "%d 番目の池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pond %d"
+          }
+        }
+      }
+    },
+    "%d〜%d cm。まだ釣っていない": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d–%d cm. Not caught yet"
+          }
+        }
+      }
+    },
+    "1 番目の池だけ、1 回ためしに釣れる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can try Pond 1 once for free."
+          }
+        }
+      }
+    },
+    "20 の池と、ここにしかいない魚 5 種。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 ponds and 5 fish found nowhere else."
+          }
+        }
+      }
+    },
+    "Pro なら 1 池 3 回": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro gets 3 per pond"
+          }
+        }
+      }
+    },
+    "Pro を使っています。ありがとう。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have Pro. Thank you."
+          }
+        }
+      }
+    },
+    "Pro を復元しました。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro restored."
+          }
+        }
+      }
+    },
+    "Pro を見る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See Pro"
+          }
+        }
+      }
+    },
+    "ありがとう。新しい釣り場が開いた。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thank you. New spots are open."
+          }
+        }
+      }
+    },
+    "いちばん大きいのは %.1f cm": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biggest: %.1f cm"
+          }
+        }
+      }
+    },
+    "いまは購入できません。通信できる所で、あとでもう一度開いてください。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchases aren't available right now. Please try again later with a connection."
+          }
+        }
+      }
+    },
+    "いると読んだら、竿を垂らす": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Know it's there? Cast."
+          }
+        }
+      }
+    },
+    "うおさがし": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripple Pond"
+          }
+        }
+      }
+    },
+    "うおさがし Pro": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripple Pond Pro"
+          }
+        }
+      }
+    },
+    "うおさがしの釣果": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My Ripple Pond catch"
+          }
+        }
+      }
+    },
+    "おかえり。今日の池から、また始めよう。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome back. Today's pond is waiting."
+          }
+        }
+      }
+    },
+    "この 7 日で今日の池を釣った日 %d 日": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fished %d of the last 7 days"
+          }
+        }
+      }
+    },
+    "この先は Pro で": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue with Pro"
+          }
+        }
+      }
+    },
+    "この池で釣った魚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caught here"
+          }
+        }
+      }
+    },
+    "この池の魚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish in this water"
+          }
+        }
+      }
+    },
+    "この釣り場は Pro で開く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This spot opens with Pro"
+          }
+        }
+      }
+    },
+    "だれが開いても同じ池。1 日 1 回": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Same pond for everyone. Once a day"
+          }
+        }
+      }
+    },
+    "とばす": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        }
+      }
+    },
+    "ぬしの %@！": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A lunker %@!"
+          }
+        }
+      }
+    },
+    "ぬし・2 匹ぶん": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lunker · counts 2"
+          }
+        }
+      }
+    },
+    "のこり %d 匹": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d fish left"
+          }
+        }
+      }
+    },
+    "のこり %d 匹・糸 %d 本": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d fish left · %d lines"
+          }
+        }
+      }
+    },
+    "のこりの糸": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lines left"
+          }
+        }
+      }
+    },
+    "のぞく": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peek"
+          }
+        }
+      }
+    },
+    "はじめての池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your first pond"
+          }
+        }
+      }
+    },
+    "はじめての池へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish your first pond"
+          }
+        }
+      }
+    },
+    "ひと休み": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taking a break"
+          }
+        }
+      }
+    },
+    "まずは覗いてみよう": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start by peeking"
+          }
+        }
+      }
+    },
+    "また明日、新しい池が開く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A new pond opens tomorrow"
+          }
+        }
+      }
+    },
+    "まだ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not fished"
+          }
+        }
+      }
+    },
+    "まだ記録がない。今日の池で 1 匹目を。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No records yet. Catch your first in today's pond."
+          }
+        }
+      }
+    },
+    "まだ釣っていない。数が多いマスのまわりを読もう。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing yet. Read around the big numbers."
+          }
+        }
+      }
+    },
+    "もう一度": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "もう一度読み込む": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "タップで覗く・長押しで浮き": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap to peek · Hold to set a float"
+          }
+        }
+      }
+    },
+    "ヒント のこり %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hint, %d left"
+          }
+        }
+      }
+    },
+    "ヒントは使い切った": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hints left"
+          }
+        }
+      }
+    },
+    "プライバシー": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        }
+      }
+    },
+    "ボウズ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skunked"
+          }
+        }
+      }
+    },
+    "マインスイーパーの推理で、魚を釣るパズル。運の 2 択はない。数を読めば、必ず釣れる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A logic puzzle like Minesweeper — but you're fishing. No coin flips: read the numbers and every fish can be found."
+          }
+        }
+      }
+    },
+    "・覗く：まわり 8 マスの魚の数が出る（ぬしは 2 匹ぶん）\\n・釣る：魚がいると読んだマスに竿を垂らす\\n・外す・魚を驚かせると糸が 1 本切れる（3 本）\\n・長押し：浮き（ここは魚、の印）": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Peek: shows how many fish are in the 8 tiles around (lunkers count 2)\\n• Cast: drop your line where you know a fish is\\n• A miss or a spooked fish snaps one line (you have 3)\\n• Hold: set a float to mark a fish"
+          }
+        }
+      }
+    },
+    "一時停止": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        }
+      }
+    },
+    "中": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "M"
+          }
+        }
+      }
+    },
+    "今回は 1 匹も釣れなかった。0 のまわりから少しずつ読むと、魚の場所が決まっていく。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No fish this time. Start from the zeros and the fish will reveal themselves."
+          }
+        }
+      }
+    },
+    "今日の池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's Pond"
+          }
+        }
+      }
+    },
+    "今日の池が開いた": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's pond is open"
+          }
+        }
+      }
+    },
+    "今日の池の知らせ（朝 7:30）": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily pond reminder (7:30 AM)"
+          }
+        }
+      }
+    },
+    "今日の池の続き": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue today's pond"
+          }
+        }
+      }
+    },
+    "今日の池へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish today's pond"
+          }
+        }
+      }
+    },
+    "今日の池を釣った日は、ぜんぶで %d 日": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d daily ponds fished in total"
+          }
+        }
+      }
+    },
+    "今日は %d / %d 匹": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today: %d / %d fish"
+          }
+        }
+      }
+    },
+    "何度でも新しい池。記録は図鑑に残る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A fresh pond every time. Catches still count"
+          }
+        }
+      }
+    },
+    "値段を読み込んでいます…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading the price…"
+          }
+        }
+      }
+    },
+    "共有": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share"
+          }
+        }
+      }
+    },
+    "効果音": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sound effects"
+          }
+        }
+      }
+    },
+    "図鑑": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fishbook"
+          }
+        }
+      }
+    },
+    "図鑑に %@ が載った": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ added to your Fishbook"
+          }
+        }
+      }
+    },
+    "外す・魚を驚かせると糸が 1 本切れる。糸は 3 本。長押しで浮き（印）を置ける。記録はこの iPhone の中だけ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A miss or a spooked fish snaps a line — you have 3. Hold to set a float. Your records stay on this iPhone."
+          }
+        }
+      }
+    },
+    "大": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L"
+          }
+        }
+      }
+    },
+    "大きさの記録": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size records"
+          }
+        }
+      }
+    },
+    "小": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "S"
+          }
+        }
+      }
+    },
+    "小魚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minnow"
+          }
+        }
+      }
+    },
+    "小魚・1 匹": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minnow · counts 1"
+          }
+        }
+      }
+    },
+    "小魚・ぬし（2 匹ぶん）・群れ（横に 3 匹）": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minnows, lunkers (count as 2), schools (3 in a row)"
+          }
+        }
+      }
+    },
+    "山の渓流": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mountain Stream"
+          }
+        }
+      }
+    },
+    "岩が多い。ぬしが多く、群れは早瀬にいる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rocky. More lunkers, schools in the rapids"
+          }
+        }
+      }
+    },
+    "岩の多い渓流、ぬしだらけの磯、数が見えない氷の湖。決まりが変わり、推理が深くなる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A rocky stream, lunker-filled tide pools, and a frozen lake where ice hides the numbers."
+          }
+        }
+      }
+    },
+    "幻のイトウ、めでたいマダイ、虹色のニジマス…。大きさの記録も残る。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The legendary taimen, red sea bream, rainbow trout… with size records."
+          }
+        }
+      }
+    },
+    "広い潮だまり。ぬしが 2 匹ぶん、群れが多い": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wide pools. Many lunkers and big schools"
+          }
+        }
+      }
+    },
+    "復元できる購入は見つかりませんでした。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No purchases to restore."
+          }
+        }
+      }
+    },
+    "承認を待っています。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for approval."
+          }
+        }
+      }
+    },
+    "振動": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptics"
+          }
+        }
+      }
+    },
+    "数を読んで、水の下の魚を釣る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read the ripples. Catch what's below."
+          }
+        }
+      }
+    },
+    "新しい池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New pond"
+          }
+        }
+      }
+    },
+    "日つづけて": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "day streak"
+          }
+        }
+      }
+    },
+    "星 %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d stars"
+          }
+        }
+      }
+    },
+    "時間": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        }
+      }
+    },
+    "村の釣り堀": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Village Pond"
+          }
+        }
+      }
+    },
+    "村の釣り堀 20 池・今日の池・気ままに・図鑑は、ずっと無料です。広告もありません。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Village Pond (20 ponds), Today's Pond, Free fishing and the Fishbook stay free. No ads, ever."
+          }
+        }
+      }
+    },
+    "案内をもう一度見る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show the intro again"
+          }
+        }
+      }
+    },
+    "桟橋に戻る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To the pier"
+          }
+        }
+      }
+    },
+    "桟橋へ（ホーム）": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to the pier"
+          }
+        }
+      }
+    },
+    "次の池へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next pond"
+          }
+        }
+      }
+    },
+    "次へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        }
+      }
+    },
+    "気ままに": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free fishing"
+          }
+        }
+      }
+    },
+    "気ままに・中くらいの池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free · Medium"
+          }
+        }
+      }
+    },
+    "気ままに・大きな池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free · Large"
+          }
+        }
+      }
+    },
+    "気ままに・小さな池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free · Small"
+          }
+        }
+      }
+    },
+    "水の下に、魚がいる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish hide under the water"
+          }
+        }
+      }
+    },
+    "水の下に魚がいる。数を読んで釣ろう。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish are hiding under the water. Read the ripples and cast."
+          }
+        }
+      }
+    },
+    "水草": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weeds"
+          }
+        }
+      }
+    },
+    "水面": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        }
+      }
+    },
+    "氷": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ice"
+          }
+        }
+      }
+    },
+    "氷のマスは、覗いても数が見えない": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ice tiles hide their number when peeked"
+          }
+        }
+      }
+    },
+    "氷の下は空": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empty under the ice"
+          }
+        }
+      }
+    },
+    "氷の湖": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frozen Lake"
+          }
+        }
+      }
+    },
+    "池が空になった！": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pond cleared!"
+          }
+        }
+      }
+    },
+    "池はこのまま残る。あとで続きから釣れる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The pond will wait for you. Come back any time."
+          }
+        }
+      }
+    },
+    "池へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go"
+          }
+        }
+      }
+    },
+    "浮き": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Float"
+          }
+        }
+      }
+    },
+    "浮きを置く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle float"
+          }
+        }
+      }
+    },
+    "画像を共有": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share image"
+          }
+        }
+      }
+    },
+    "磯の潮だまり": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tide Pools"
+          }
+        }
+      }
+    },
+    "空にした池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponds cleared"
+          }
+        }
+      }
+    },
+    "空振り…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing there…"
+          }
+        }
+      }
+    },
+    "糸 のこり %d 本": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d lines left"
+          }
+        }
+      }
+    },
+    "糸が 1 本切れた": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One line snapped"
+          }
+        }
+      }
+    },
+    "糸が尽きた…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Out of line…"
+          }
+        }
+      }
+    },
+    "続きから": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        }
+      }
+    },
+    "続ける": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep fishing"
+          }
+        }
+      }
+    },
+    "群れ・横に 3 匹": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "School · 3 in a row"
+          }
+        }
+      }
+    },
+    "見つけた種": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Species"
+          }
+        }
+      }
+    },
+    "見逃した日の池を 14 日前まで遊べる。ヒントは 1 池 3 回（無料は 1 回）。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play any daily pond from the last 14 days. 3 hints per pond (free: 1)."
+          }
+        }
+      }
+    },
+    "覗いたマスには、まわり 8 マスにいる魚の数が出る。ぬし（大物）は 2 匹ぶん。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A peeked tile shows how many fish are in the 8 tiles around it. Lunkers count as two."
+          }
+        }
+      }
+    },
+    "覗くと、波紋が数を教える": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peek, and the ripples count"
+          }
+        }
+      }
+    },
+    "記録": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Records"
+          }
+        }
+      }
+    },
+    "記録には残らない練習の池。見逃した日の盤を遊べる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Practice ponds — they don't change your records."
+          }
+        }
+      }
+    },
+    "記録はこの iPhone の中だけに残ります。外へ送らず、広告も解析もありません。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your records stay on this iPhone. Nothing is sent anywhere — no ads, no analytics."
+          }
+        }
+      }
+    },
+    "設定": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "設定アプリを開く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        }
+      }
+    },
+    "買い切り。いちど買えば、ずっと。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One-time purchase. Yours for good."
+          }
+        }
+      }
+    },
+    "購入できませんでした。時間をおいて、もう一度。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The purchase didn't go through. Please try again later."
+          }
+        }
+      }
+    },
+    "購入を復元": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore purchases"
+          }
+        }
+      }
+    },
+    "逃げた": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escaped"
+          }
+        }
+      }
+    },
+    "逃げた魚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A fish that got away"
+          }
+        }
+      }
+    },
+    "通知が許可されていません。設定アプリで「うおさがし」の通知をオンにしてください。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications are off for this app. Turn them on in the Settings app."
+          }
+        }
+      }
+    },
+    "遊び方": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How to play"
+          }
+        }
+      }
+    },
+    "過去の今日の池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Past daily ponds"
+          }
+        }
+      }
+    },
+    "過去の今日の池・ヒント 3 回": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Past daily ponds · 3 hints"
+          }
+        }
+      }
+    },
+    "過去の池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A past pond"
+          }
+        }
+      }
+    },
+    "釣った": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caught"
+          }
+        }
+      }
+    },
+    "釣った魚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish caught"
+          }
+        }
+      }
+    },
+    "釣った魚 %d 匹": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d caught"
+          }
+        }
+      }
+    },
+    "釣りの記録": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Records"
+          }
+        }
+      }
+    },
+    "釣り場": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fishing spots"
+          }
+        }
+      }
+    },
+    "釣り場 3 つ・60 の池": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 new spots · 60 ponds"
+          }
+        }
+      }
+    },
+    "釣り場 3 つ・魚 15 種・過去の今日の池・ヒント 3 回": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 more spots, 15 more fish, past ponds, 3 hints"
+          }
+        }
+      }
+    },
+    "釣る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cast"
+          }
+        }
+      }
+    },
+    "釣果": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your catch"
+          }
+        }
+      }
+    },
+    "釣果を共有": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share your catch"
+          }
+        }
+      }
+    },
+    "閉じる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "魚 %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d fish nearby"
+          }
+        }
+      }
+    },
+    "魚 15 種で図鑑が埋まる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "15 more fish for your Fishbook"
+          }
+        }
+      }
+    },
+    "魚がいると読んだマスをタップして釣る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap where you know a fish is"
+          }
+        }
+      }
+    },
+    "魚が逃げた！": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It got away!"
+          }
+        }
+      }
+    },
+    "魚図鑑": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fishbook"
           }
         }
       }

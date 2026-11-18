@@ -1,0 +1,35 @@
+{
+  "identifier": "36A0D013",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "480",
+      "familyShareable": true,
+      "internalID": "683515613301",
+      "localizations": [
+        {
+          "description": "釣り場3つ・魚15種・過去の池・ヒント3回",
+          "displayName": "うおさがし Pro",
+          "locale": "ja"
+        },
+        {
+          "description": "3 more spots, 15 fish, past ponds, 3 hints",
+          "displayName": "Ripple Pond Pro",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.enludus.daily.013.pro",
+      "referenceName": "Ripple Pond Pro",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_locale": "ja",
+    "_storefront": "JPN"
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

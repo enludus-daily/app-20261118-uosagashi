@@ -3,15 +3,23 @@
   "products": [
     {
       "type": "NON_CONSUMABLE",
-      "productId": "com.enludus.daily.template.pro",
-      "referenceName": "Pro",
+      "productId": "com.enludus.daily.013.pro",
+      "referenceName": "Ripple Pond Pro",
       "price": 480,
       "familySharable": true,
-      "reviewNote": "Pro を買うと、すべての〇〇と詳しい振り返りが使えます。課金の画面は設定 > Pro から開けます。",
+      "reviewNote": "Pro を買うと、釣り場 3 つ（山の渓流・磯の潮だまり・氷の湖、各 20 池）と魚 15 種、過去 14 日の今日の池、1 池 3 回のヒントが使えます。課金の画面は ホーム > 設定 > Pro を見る から開けます。",
       "reviewScreenshot": "docs/iap/paywall.png",
       "localizations": [
-        {"locale": "ja", "name": "Pro", "description": "すべての〇〇と詳しい振り返り"},
-        {"locale": "en-US", "name": "Pro", "description": "All 〇〇 and detailed reviews"}
+        {
+          "locale": "ja",
+          "name": "うおさがし Pro",
+          "description": "釣り場3つ・60の池・魚15種・過去の池・ヒント3回"
+        },
+        {
+          "locale": "en-US",
+          "name": "Ripple Pond Pro",
+          "description": "3 new spots, 60 ponds, 15 fish, past dailies, 3 hints"
+        }
       ]
     }
   ]

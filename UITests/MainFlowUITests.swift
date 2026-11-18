@@ -8,13 +8,24 @@ import XCTest
 /// その日のアプリの主な流れ。
 enum MainFlow {
     /// 起動引数（見本のデータで開くなど。保存されたデータを壊さないもの）
-    static let launchArguments: [String] = []
+    static let launchArguments: [String] = ["-uiTestFresh"]
 
     /// 1 操作ずつ。各操作のあとに撮る。
+    /// 案内 3 ページ → はじめての池（ヒント・道具の持ち替え）→ 一時停止 → 桟橋 → 図鑑 → 今日の池
     static let steps: [Step] = [
-        .tap("main.increment"),
-        .tap("main.increment"),
-        .tap("main.reset"),
+        .tap("main.onboardingNext"),
+        .tap("main.onboardingNext"),
+        .tap("main.onboardingNext"),
+        .tap("main.hint"),
+        .tap("main.toolRod"),
+        .tap("main.toolPeek"),
+        .tap("main.pause"),
+        .tap("main.leave"),
+        .tap("main.codex"),
+        .tap("main.closeCodex"),
+        .tap("main.daily"),
+        .tap("main.pause"),
+        .tap("main.resume"),
     ]
 }
 
